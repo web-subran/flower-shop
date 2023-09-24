@@ -190,3 +190,31 @@ main{
     border: 0;
     border-radius: 10px;
 }
+
+/* Footer Section Start */
+.footer{
+    background-color: #111010;
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.footer-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-description{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.90);
+    width: 550px;
+    margin: 0 auto;
+}
+
+.copyright{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 15px;
+}

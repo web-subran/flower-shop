@@ -137,3 +137,15 @@ main{
     align-items: center;
     text-align: center;
 }
+
+/* Instagram Section Start */
+.instagram-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.instagram-item img{
+    width: 100%;
+}

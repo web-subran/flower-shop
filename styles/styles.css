@@ -167,3 +167,26 @@ main{
     border: 0;
     border-radius: 10px;
 }
+
+/* Contact Us Section Start */
+.contact-form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(39, 39, 39, 0.344);
+    text-align: center;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form input[type='password']{
+    width: 400px;
+    display: block;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 18px 35px;
+    border: 0;
+    border-radius: 10px;
+}

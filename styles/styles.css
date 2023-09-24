@@ -19,6 +19,28 @@
     border-radius: 10px;
 }
 
+section{
+    margin-top: 100px;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-description{
+    max-width: 580px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
 /* Header Section Styles */
 .header{
     background-color: rgba(229, 84, 115, 0.10);
@@ -47,4 +69,37 @@
 
 .banner-img img{
     width: 500px;
+}
+
+/* Main Section Start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Feature Section Start */
+.feature-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: center;
+}
+
+.feature-item-img{
+    width: 314px;
+    height: 400px;
+    padding: 80px 40px 0 40px ;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.feature-item-img img{
+    width: 314px;
+    height: 400px;
+}
+
+.feature-item-title {
+    font-size: 24px;
+    color: #272727;
 }
